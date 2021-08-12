@@ -72,6 +72,10 @@ nav {
     font-size: 1.5rem;
 }
 
+.containerLinks li a:hover {
+    color: rgb(196, 89, 89);
+}
+
 .landing {
     background-image: url("../images/landing.jpg");
     width: 100vw;
@@ -191,6 +195,22 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#searchBttn {
+    border: none;
+    background-color: rgb(196, 89, 89);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#searchBttn:hover {
+    background-color: rgb(206, 128, 128);
 }
 
 #title {
