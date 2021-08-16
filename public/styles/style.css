@@ -73,7 +73,7 @@ nav {
 }
 
 .containerLinks li a:hover {
-    color: rgb(196, 89, 89);
+    color: #1cb16a;
 }
 
 .landing {
@@ -206,7 +206,9 @@ input {
     background-color: rgb(196, 89, 89);
     color: white;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 7px 17px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #searchBttn:hover {
