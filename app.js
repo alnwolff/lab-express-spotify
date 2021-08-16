@@ -32,7 +32,7 @@ app.listen(3000, () => console.log('My Spotify project running on port 3000 🎧
 
 app.get('/', (req,res) => {
     
-    res.render('home')
+    res.render('home', {home: true})
 })
 
 app.get('/artist-search', (req, res) => {

@@ -218,3 +218,25 @@ input {
 #search {
     width: 300px;
 }
+
+.artistContainer {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 40px 40px 80px;
+    padding: 10px 10px;
+    background-color: #e6f5ee;
+    box-shadow: 1px 1px 5px #02964e;
+}
+
+.artist img {
+    width: 200px;
+    height: 200px;
+}

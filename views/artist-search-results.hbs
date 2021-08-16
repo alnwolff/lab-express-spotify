@@ -1,5 +1,13 @@
-{{#each artistList}}
-    <img src="{{images.0.url}}" alt="{{name}}">
-    <p>{{name}}</p>
-    <a href="/albums/{{id}}">View Albums</a>
-{{/each}}
+<section class="artistContainer">
+    {{#each artistList}}
+        <div class="artist">
+            {{#if images.0.url}}
+                <img src="{{images.0.url}}" alt="{{name}}" />
+                {{else}}
+                <img src="/images/spotify-icon-white.png" alt="{{name}}"/>
+            {{/if}}
+            <p>{{name}}</p>
+            <a href="/albums/{{id}}">View Albums</a>
+        </div>
+    {{/each}}
+</section>
