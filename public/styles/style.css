@@ -221,13 +221,13 @@ input {
     width: 300px;
 }
 
-.artistContainer {
+.container {
     display: flex;
     width: 100vw;
     flex-wrap: wrap;
 }
 
-.artist {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -239,12 +239,12 @@ input {
     font-weight: bold;
 }
 
-.artist img {
+.card img {
     width: 200px;
     height: 200px;
 }
 
-.artist p {
+.card p {
     width: 200px;
     text-align: center;
 }
