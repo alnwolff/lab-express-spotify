@@ -201,7 +201,7 @@ input {
     margin-bottom: 20px;
 }
 
-#searchBttn {
+.searchBttn {
     border: none;
     background-color: rgb(196, 89, 89);
     color: white;
@@ -209,9 +209,11 @@ input {
     padding: 7px 17px;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 
-#searchBttn:hover {
+.searchBttn:hover {
     background-color: rgb(206, 128, 128);
 }
 
@@ -231,12 +233,18 @@ input {
     justify-content: center;
     align-items: center;
     margin: 50px 40px 40px 80px;
-    padding: 10px 10px;
-    background-color: #e6f5ee;
-    box-shadow: 1px 1px 5px #02964e;
+    background-color: #4d4d4d;
+    box-shadow: 1px 1px 5px #4d4d4d;
+    color: white;
+    font-weight: bold;
 }
 
 .artist img {
     width: 200px;
     height: 200px;
+}
+
+.artist p {
+    width: 200px;
+    text-align: center;
 }
